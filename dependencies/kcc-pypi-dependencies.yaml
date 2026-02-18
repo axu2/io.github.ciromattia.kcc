@@ -26,6 +26,7 @@ modules:
         x-checker-data:
           type: pypi
           name: Pillow
+          is-important: true
 
   - name: python3-psutil
     buildsystem: simple
@@ -176,6 +177,7 @@ modules:
         x-checker-data:
           type: pypi
           name: numpy
+          is-important: true
 
     modules:
       - name: pyproject-metadata
