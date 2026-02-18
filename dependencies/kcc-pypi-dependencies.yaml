@@ -177,7 +177,6 @@ modules:
         x-checker-data:
           type: pypi
           name: numpy
-          is-important: true
 
     modules:
       - name: pyproject-metadata
